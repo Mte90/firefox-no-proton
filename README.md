@@ -1,5 +1,8 @@
-Reverts Firefox Proton to Photon compact
+# Reverts Firefox Proton to Photon compact
 
-> Currently on hiatus, thought it might be better to just wait until Mozilla
-> is finished with whatever they're doing. Feel free to pick it up though.
+Based on [https://github.com/intrnl/firefox-revert-proton](https://github.com/intrnl/firefox-revert-proton).
+
+Includes also:
+
+* Add numbers to tabs, to make switching with Ctrl/Cmd+[number key] easier. - https://gist.github.com/arthurattwell/19d868330a3c9f668a3f3a69230ac28c
 
