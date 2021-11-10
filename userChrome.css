@@ -93,7 +93,7 @@ tab:nth-child(9) .tab-label::before {
 
 /** Tab */
 .tabbrowser-tab {
-  --tab-line-color: #0A84FF;
+  --tab-line-color: #eff0f1;
   --tab-label-mask-size: 2em !important;
   padding-inline: 0 !important;
 }
