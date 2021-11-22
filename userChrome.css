@@ -93,7 +93,7 @@ tab:nth-child(9) .tab-label::before {
 
 /** Tab */
 .tabbrowser-tab {
-  --lwt-tab-line-color: rgb(204, 204, 204);
+  --lwt-tab-line-color: rgb(239, 240, 241);
   padding-inline: 0 !important;
 }
 
