@@ -175,10 +175,6 @@ tab:nth-child(9) .tab-label::before {
   margin-inline-start: -1px !important;
 }
 
-:is(:root[sizemode='normal'], :root[gtktiledwindow='true']) .tabbrowser-tab:first-of-type {
-  margin-inline-start: 1px !important;
-}
-
 .tabbrowser-tab::after,
 .tabbrowser-tab::before {
   border-inline-start: 1px solid var(--toolbarbutton-active-background);
@@ -241,8 +237,11 @@ tab:nth-child(9) .tab-label::before {
 
 /* TODO: figure out why the width calculation isn't working as intended. */
 .urlbar-icon {
-  height: 24px !important;
-  width: 24px !important;
+  width: 14px;
+  height: 14px;
+  -moz-context-properties: fill, fill-opacity;
+  fill: currentColor;
+  fill-opacity: var(--urlbar-icon-fill-opacity);
 }
 
 :is(.chromeUI, .extensionPage, .notSecureText) #identity-icon-box {
